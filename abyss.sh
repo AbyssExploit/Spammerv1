@@ -100,10 +100,12 @@ echo "Untuk Tutorial Silahkan Comment Atau Join Grup"
 sleep 3
 apt update
 apt upgrade
-git clone https://github.com/4nat/Reborn/
+git clone https://github.com/4nat/Reborn
 mv Reborn $HOME
 cd $HOME/Reborn
+pip install -r requirements.txt
 bash start.sh
+python sms.py
 fi
 
 if [ $asu = 4 ] || [ $asu = 4 ]
