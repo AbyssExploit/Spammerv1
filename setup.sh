@@ -17,3 +17,4 @@ pip install requests
 pip install mechanize
 
 toilet --metal -f future -t " INSTALL BERES"
+xdg-open https://www.youtube.com/channel/UCszrYhQBsdEQJ4VIQlijIlA
