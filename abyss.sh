@@ -245,6 +245,7 @@ if [ $asu = 0 ] || [ $asu = 0 ]
 then
 echo -e "$green Thanks To Use This Tools"
 echo -e "$green By Abyss Walker"
+xdg-open https://www.youtube.com/channel/UCszrYhQBsdEQJ4VIQlijIlA
 exit
 fi
 clear
